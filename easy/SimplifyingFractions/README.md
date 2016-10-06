@@ -34,6 +34,7 @@ The most simplified numbers
 7 18
 
 7673 4729
+
 4 1
 
 ## Notes/Hints
@@ -45,34 +46,28 @@ Most languages have by default this kind of functionality, but if you want to ch
 Instead of using numbers, we could also use letters.
 For instance
 
+```
 ab   a
-
 __ = _
-
 cb   c
+```
 
 And if you know that x = cb, then you would have this:
-
+```
 ab   a
-
 __ = _
-
 x    c  
-
+```
 and offcourse:
-
+```
 a    1
-
 __ = _
-
 a    1
 
 aa   a
-
 __ = _
-
 a    1
-
+```
 The input will be first a number saying how many equations there are. And after the equations, you have the fractions.
 The equations are a letter and a value seperated by a space. An equation can have another equation in it.
 
